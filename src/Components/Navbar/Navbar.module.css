@@ -315,3 +315,9 @@
         display: flex;
     }
 }
+
+@media screen and (max-width: 485px) {
+    .upMain {
+        height: 4vh;
+    }
+}
