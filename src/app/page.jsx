@@ -24,7 +24,7 @@ export default function Home() {
         </div>
         <div className={styles.right}>
 
-          {/* <video className={styles.videoPlay} src="/set.mp4" type="video/mp4" loop autoPlay muted /> */}
+          <video className={styles.videoPlay} src="/set.mp4" type="video/mp4" loop autoPlay muted />
 
         </div>
       </div>
