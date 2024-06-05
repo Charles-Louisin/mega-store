@@ -35,9 +35,9 @@
 
 
 
-@media screen and (max-width: 485px) {
+@media screen and (max-width: 500px) {
     .footer {
-        height: 10vh;
+        height: 6vh;
     }
     .imgLogo {
         width: 30px;
