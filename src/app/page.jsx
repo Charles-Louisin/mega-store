@@ -4,11 +4,13 @@ import Image from "next/image";
 import Footer from "@/Components/Footer/Footer";
 import { FaSearch } from "react-icons/fa";
 import Link from "next/link";
+import Cards from "@/Components/Cards/Cards";
 
 export default function Home() {
   return (
     <div className={styles.main}>
       <Navbar />
+
       <div className={styles.intro}>
         <div className={styles.left}>
           <div className={styles.containIntro}>
@@ -23,11 +25,12 @@ export default function Home() {
           </div>
         </div>
         <div className={styles.right}>
-
           <video className={styles.videoPlay} src="/set.mp4" type="video/mp4" loop autoPlay muted />
-
         </div>
       </div>
+
+      <Cards />
+
       <Footer />
     </div>
   );
