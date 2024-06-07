@@ -168,7 +168,7 @@
     position: fixed;
     top: 0;
     left: 0;
-    /* background-color: blue; */
+    background-color: #fff;
     padding: 5px 20px;
     gap: 0px;
     display: flex;
