@@ -153,9 +153,9 @@
 
 .MenuContain {
     width: 100%;
-    height: 125vh;
-    padding: 20px 40px;
-    padding-top: 24vh;
+    height: 100vh;
+    padding: 20px 10px;
+    padding-top: 20vh;
     padding-bottom: 10vh;
     overflow: auto;
     position: relative;
@@ -164,32 +164,28 @@
 
 .upMenuContain {
     width: 100%;
-    height: 20vh;
+    height: 15vh;
     position: fixed;
     top: 0;
     left: 0;
-    background-color: #fff;
-    padding: 0 40px;
-    gap: 20px;
+    /* background-color: blue; */
+    padding: 5px 20px;
+    gap: 0px;
     display: flex;
-    align-items: center;
+    flex-direction: column;
     justify-content: space-between;
 }
 
 .leftMenuContain {
-    height: 100%;
-    width: fit-content;
+    height: fit-content;
+    width: 100%;
     /* background-color: gray; */
     display: flex;
-    flex-direction: column;
     justify-content: space-between;
-    padding: 15px 0;
+    align-items: center;
+    padding: 0px 0;
 }
-.leftMenuContain h1 {
-    font-size: 40px;
-    font-weight: bold;
-    margin-left: 10px;
-}
+
 .leftMenu {
     width: 100%;
     height: fit-content;
@@ -199,14 +195,14 @@
 }
 
 .imgLogoMenu {
-    width: 50px;
+    width: 40px;
 }
 
 .textLogoMenu {
     color: #000;
     font-style: normal;
     font-weight: 200;
-    font-size: 24px;
+    font-size: 20px;
 }
 
 .textLogoMenu strong {
@@ -214,13 +210,18 @@
 }
 
 .rightMenuContain {
-    height: 100%;
-    width: fit-content;
+    height: fit-content;
+    width: 100%;
     /* background-color: gray; */
     display: flex;
-    flex-direction: column;
+    align-items: center;
     justify-content: space-between;
-    padding: 15px 0;
+    padding: 0;
+}
+.rightMenuContain h1 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 10px;
 }
 .iconMenuSearch {
     width: fit-content;

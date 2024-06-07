@@ -54,11 +54,11 @@ const Navbar = () => {
                                     <Image className={styles.imgLogoMenu} src={'/realMatch.png'} alt='logo' width={100} height={100} />
                                     <p className={styles.textLogoMenu}><strong>Mega</strong>Store</p>
                                 </div>
-                                <h1>MENU</h1>
+                                <FaArrowRight onClick={()=>setHide(!hide)} className={styles.iconMenuArrow} />
                             </div>
 
-                            <div className={styles.rightMenuContain}>
-                                <FaArrowRight onClick={()=>setHide(!hide)} className={styles.iconMenuArrow} />
+                            <div className={styles.rightMenuContain}>                          
+                                <h1>MENU</h1>
                                 <FaSearch className={styles.iconMenuSearch} />
                             </div>
                         </div>
